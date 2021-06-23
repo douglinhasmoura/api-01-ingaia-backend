@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "CommonJS",
+        "strict": true,
+        "baseUrl": "./src",
+        "outDir": "../../api-01/dist",
+        "paths": {
+            "@modules/*": ["modules/*"],
+            "@shared/*": ["shared/*"]
+        },
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true
+    }
+}
