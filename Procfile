@@ -1,1 +1,1 @@
-web: yarn nodemon dist/src/shared/infra/http/server.js
+web: yarn node dist/src/shared/infra/http/server.js
