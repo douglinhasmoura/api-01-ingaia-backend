@@ -18,10 +18,6 @@
     "nodemon": "^2.0.7"
   },
   "scripts": {
-    "dev:server": "ts-node-dev -r tsconfig-paths/register --inspect  --transpile-only --ignore-watch node_modules src/shared/infra/http/server.ts",
-    "test": "jest",
-    "build": "babel src --extensions \".ts\" --out-dir dist --copy-files",
-    "build:js": "tsc",
     "build:prod":"nodemon dist/src/shared/infra/http/server.js"
   },
   "devDependencies": {
