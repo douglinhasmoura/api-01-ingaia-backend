@@ -2,7 +2,6 @@
   "name": "api-01",
   "version": "1.0.0",
   "description": "Api feita para retornar o valor do metro quadrado de um imóvel",
-  "main": "index.js",
   "author": "Douglas Moura",
   "license": "MIT",
   "dependencies": {
